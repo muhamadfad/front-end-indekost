@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@300;400;700;800&display=swap');
+
+body {
+    margin: 0pt;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.473);
+
+}
+
+.fa-arrow-left {
+    position: absolute;
+    padding: 10px;
+    left: 21%;
+    top: 3%;
+
+}
+
+.star {
+    position: absolute;
+    width: 50px;
+    right: 21%;
+    top: 3%;
+}
+
+.fa-star {
+    color: rgba(248, 0, 0, 1);
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.nama-kost {
+    font-size: 40px;
+    color: rgba(113, 110, 110, 1);
+}
+
+#lokasi {
+    font-size: 25px;
+}
+
+.maps {
+    right: 10px;
+}
+
+.c-1,
+.c-2,
+.c-3,
+.c-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+
+
+.map {
+    background-color: aliceblue;
+    width: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.foto-user {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    box-shadow: 3px 0px 10px#2892D7;
+}
+
+#nama {
+    color: #585656;
+    font-size: 20px;
+
+}
+
+#pekerjaan {
+    color: #1F9781;
+    font-size: 16px;
+
+}
+
+.user {
+    display: flex;
+}
+
+.fa-comment-dots {
+    background-color: aliceblue;
+    color: rgba(202, 166, 38, 1);
+
+}
+
+.fa-phone {
+    background-color: aliceblue;
+    color: rgba(31, 151, 129, 1);
+
+}
+
+.fa-phone,
+.fa-comment-dots {
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.fy {}
+
+.wifi {
+    width: 40px;
+}
+
+.info {
+    font-size: 40px;
+    color: rgba(91, 91, 91, 1);
+}
+
+
+#harga {
+    font-weight: 700;
+    color: #2892D7;
+
+}
+
+#head {
+    font-weight: 200;
+}
+
+.pesan {
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #2892D7;
+}
+
+.pesan a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+
+}
+
+
+
+@media screen and (max-width:700px) {
+    .container {
+        width: 100%;
+    }
+
+    .fa-arrow-left {
+        left: 1%;
+        top: 1%;
+    }
+
+    .star {
+        right: 1%;
+        top: 2%;
+    }
+
+    .nama-kost {
+        font-size: 30px;
+    }
+
+    .foto-user {
+        width: 60px;
+    }
+
+
+    #lokasi {
+        font-size: 20px;
+    }
+
+    .map {
+        width: 35px;
+    }
+
+    .fa-phone,
+    .fa-comment-dots {
+        padding: 5px;
+        font-size: 30px;
+    }
+
+    .info {
+        font-size: 30px;
+
+    }
+
+
+}

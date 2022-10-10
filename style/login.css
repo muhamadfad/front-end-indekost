@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@300;400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0pt;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.box-1,
+.box-2 {
+    width: 50%;
+    height: 650px;
+}
+
+.box-1 {
+    background-color: #2892D7;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-2 {
+    background-color: beige;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

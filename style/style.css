@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@300;400;700;800&display=swap');
+
+body {
+    margin: 0pt;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.navbar {
+    display: flex;
+    border-bottom: 2px;
+    border-color: rgb(3, 3, 3);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.555);
+    background-color: #2892D7;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    top: 0;
+
+}
+
+.navbar {
+    background-color: #00a2c6;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+
+}
+
+.menu {
+
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 10px;
+}
+
+
+.featured-image {
+    width: 100%;
+    min-height: 240px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -ms-border-radius: 0px 0px 10px 10px;
+    -o-border-radius: 0px 0px 10px 10px;
+}
+
+.bx-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.icon {
+    text-align: center;
+}
+
+i {
+    font-size: 25px;
+    color: black;
+    width: 10%;
+}
+
+.search {
+
+    width: 70%;
+    margin-right: 10px;
+    background-color: #EFEFEF;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    border: none;
+}
+
+.cari {
+
+    padding: 10px;
+    background-color: rgba(40, 146, 215, 1);
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.no2 {
+
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding: 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.589);
+}
+
+.container {
+    box-shadow: 2px 3px 2px 3px rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+
+
+
+
+}
+
+.bf {
+    display: flex;
+}
+
+.filter {
+    width: max-content;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: 1px black solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+
+}
+
+.filter:hover {
+    background-color: #7f818149;
+}
+
+.content {
+    width: 100%;
+    margin-top: 50px;
+
+
+}
+
+
+
+.box1 {
+    margin: 5px;
+}
+
+.box1,
+.box2 {
+    padding: 20px;
+
+}
+
+.box2 {
+
+    margin: 5px;
+    font-size: 18px;
+
+
+}
+
+.box2 i {
+    font-size: 17px;
+}
+
+hr {
+    border: 1px rgb(97, 97, 97) solid;
+
+
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+
+
+.card {
+    width: 350px;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: rgba(113, 110, 110, 1);
+}
+
+.images {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+
+
+
+.copy-right {
+    padding: 10px 30px;
+
+}
+
+
+
+.nm {
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-top: 15px;
+
+}
+
+.sm {
+    text-align: center;
+}
+
+.sm i {
+
+    margin: 20px;
+    font-size: 25px;
+    color: rgb(75, 74, 74);
+
+}
+
+
+
+
+@media screen and (max-width:700px) {
+    .no2 {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .cari {
+        font-size: 20px;
+        font-weight: 700;
+        width: 10%;
+    }
+
+    .bx-filter {
+        display: flex;
+
+
+    }
+
+    .bx-1 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .bx-content {
+        width: 380px;
+        margin: 20px;
+
+    }
+
+
+
+    .cr {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sm i {
+        margin-left: 20px;
+        font-size: 40px;
+
+
+    }
+
+}
