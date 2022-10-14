@@ -12,28 +12,19 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.container {
-    display: flex;
-}
 
-.box-1,
-.box-2 {
-    width: 50%;
-    height: 650px;
-}
+
+
 
 .box-1 {
-    background-color: #2892D7;
-    padding: 0;
-    margin: 0 auto;
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 .box-2 {
-    background-color: beige;
+    width: 100%;
+    background-color: white;
     padding: 0;
     margin: 0 auto;
     display: flex;
@@ -43,12 +34,110 @@ body {
 }
 
 .card {
+    padding: 20px;
+    margin: 20px;
     width: 300px;
     height: 400px;
-    background-color: blueviolet;
+
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+
+div i {
+    font-size: 20px;
+    color: black;
+    width: 30px;
+    text-align: center;
+
+}
+
+.item {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: rgb(224, 224, 224);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cd-login,
+form {
+    margin-top: 30px;
+
+}
+
+hr {
+
+    border: 1px solid rgba(94, 173, 225, 1);
+}
+
+form p {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px 10px 0px 10px;
+    background-color: white;
+    border: none;
+
+}
+
+.change .fa-eye-slash {
+
+    background-color: rgb(44, 42, 42);
+    color: #d72862;
+}
+
+input[type="checkbox"] {}
+
+input:focus {
+    outline: none;
+}
+
+.pass {
+    display: flex;
+    justify-content: space-between;
+}
+
+.field_icon {
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(201, 200, 200);
+}
+
+@media screen and (min-width:800px) {
+    .container {
+        display: flex;
+    }
+
+    .box-1 {
+
+        background-color: #2892D7;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box-1,
+    .box-2 {
+        width: 50%;
+
+    }
+
+    .box-1 {
+        height: 650px;
+    }
 }
